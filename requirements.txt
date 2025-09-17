@@ -1,5 +1,5 @@
 fastapi==0.110.0
-uvicorn[standard]==0.29.0
+uvicorn==0.29.0
 
 sqlalchemy==2.0.30
 pydantic==2.6.4
@@ -7,12 +7,5 @@ pydantic-settings==2.2.1
 
 passlib[bcrypt]==1.7.4
 
-# Database drivers (choose one based on your setup)
-asyncpg==0.29.0       # If using PostgreSQL async
-psycopg2-binary==2.9.9 # If using PostgreSQL sync
-# aiosqlite==0.19.0    # If using SQLite async
-
-python-multipart==0.0.9  # Required if you plan to use file uploads (optional)
-
-# Dev tools
-watchfiles==0.21.0      # Used by uvicorn --reload
+psycopg2-binary==2.9.9  # For PostgreSQL (used by Render default DB)
+python-multipart==0.0.9
