@@ -6,6 +6,5 @@ pydantic==2.6.4
 pydantic-settings==2.2.1
 
 passlib[bcrypt]==1.7.4
-
-psycopg2-binary==2.9.9  # For PostgreSQL (used by Render default DB)
 python-multipart==0.0.9
+psycopg2-binary==2.9.9
